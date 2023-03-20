@@ -1,0 +1,175 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 3rem;
+    padding-bottom: 3rem;
+    align-items: center;
+}
+
+.contact-heading {
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 0%;
+}
+
+.contact-text {
+    color: #000;
+}
+
+.contact-inner {
+    display: flex;
+    justify-content: center;
+    gap: 3rem
+}
+
+.contact-form {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.form {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.form-head {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.form-input {
+    padding: 19px 20px;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    margin-bottom: 1.5rem;
+}
+
+.form-msg {
+
+    min-width: 353px;
+    max-width: 353px;
+    max-height: 193px;
+    min-height: 193px;
+}
+
+.contact-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 38px;
+    gap: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    width: 145px;
+    height: 56px;
+    border: none;
+    background: #0D89CA;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 2rem;
+}
+
+.contact-information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.location-text {
+    text-align: center;
+}
+
+.map {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icon {
+    margin: 2rem;
+}
+
+.social-img {
+    margin: 1rem;
+}
+
+@media screen and (max-width: 1090px) {
+    .contact-inner{
+        flex-direction: column;
+        
+    }
+    .contact-form {
+        align-self: center;
+        margin: 1rem 0rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .contact-inner {
+        flex-direction: column;
+    }
+
+    .contact-form {
+        align-self: center;
+        margin: 1rem 0rem;
+    }
+    .form-input{
+        padding: 19px .5rem;
+    }
+    .map {
+        display: none;
+    }
+
+    .location-mobile {
+        flex-direction: row;
+        justify-content: center;
+        padding-block-end: 3rem;
+    }
+
+    .location-text-mobile {
+        width: 60%;
+    }
+
+    .location {
+        width: auto;
+        font-size: 12px;
+    }
+
+    .contact-information {
+        flex-wrap: wrap;
+
+    }
+
+    .social-icon {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-msg {
+
+        min-width: 80%;
+        max-width: 90%;
+        max-height: 90%;
+        min-height: 80%;
+    }
+}

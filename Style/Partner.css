@@ -1,0 +1,51 @@
+.partner{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 3rem;
+    align-items: center;
+}
+
+.partner-heading{
+    font-style: normal;
+    font-weight: 400;
+    margin: 0%;
+}
+
+.partner-text{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+
+text-align: center;
+letter-spacing: 0.2px;
+color: #081A2B;
+}
+
+.partner-logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partner-logo-img{
+    width: 12%;
+    height: 12%;
+}
+
+@media screen and (max-width: 600px) {
+    .partner-logos{
+        flex-wrap: wrap;
+    }
+    .partner-logo-img{
+        width: 21%;
+        padding: 1rem 0rem;
+    }
+    .partner{
+        margin: 0rem 1rem;
+    }
+
+    .test2{
+        display: none;
+    }
+}
